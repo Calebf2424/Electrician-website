@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body{
+     font-size: 20px;
+     background-color: #FFF;
+     color: #333;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     line-height: 1.6;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: #000;
+ }
+ 
+ ul{
+     list-style: none;
+ }
+ 
+ /* Top banner */
+ 
+ .container-1{
+     display: flex;
+     background-color: #0AA9FF;
+     height:100%;
+     justify-content: center;
+ 
+ }
+ 
+ .container-1 h1{
+     font-size: 18px;
+     padding: 10px;
+ }
+ 
+ .container-1 a:hover{
+     color: #333;
+ }
+ 
+ /* Navbar */
+ 
+ .nav{
+     display: flex;
+     position: sticky;
+     top: 0;
+     justify-content: space-between;
+     background-color:#000;
+     color: #fff;
+     flex-shrink: 0;
+     flex-wrap: wrap;
+ }
+ 
+ .nav img{
+     width: 15%;
+     height: 10%;
+     padding-top: 10px;
+     padding-bottom: 10px ;
+ }
+ 
+ .nav ul{
+     display: flex;
+     padding-top: 30px;
+ }
+ 
+ .nav li{
+     padding: 0 30px;
+ }
+ 
+ .nav a{
+     color: #fff;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ .nav a:hover{
+     color: #0AA9FF ;
+ }
+ 
+ #showcase {
+     background-color: #000000;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/showcase.jpg);
+     background-position: center;
+     background-size: cover;
+     color: #ffffff;
+     padding: 1em;
+     text-align: center;
+ }
+ #showcase h1{
+     padding: 20px 200px;
+     color: #fff;
+ 
+ }
+ 
+ #showcase p{
+     padding-left: 200px;
+     padding-right: 200px;
+     padding-bottom: 150px;
+ }
+ 
+ /* residential */
+ 
+ .section{
+     display: flex;
+     background:#fff;
+     padding-bottom: 40px;
+     margin-top: 100px;
+ }
+ 
+ .section h1{
+     font-size: 50px;
+     color: #000;
+     text-align: center;
+ }
+ 
+ .section p{
+     text-align: center;
+ }
+ 
+ .section img{
+     width: 500px;
+     margin-left: 200px;
+     margin-right: 200px;
+ }
+ 
+ .btn{
+     
+     background: #0AA9FF;
+     color: #000;
+     border: none;
+     font-size: 16px;
+     padding: 10px 200px;
+     border: solid 2px #333;
+     border-radius: 6px;
+ 
+ }
+ .hr{
+     margin: auto;
+     width: 70%;
+     height: 3px;
+     background-color: #0AA9FF;
+ }
+ 
+ .container2{
+     padding: 10px 100px;
+     text-align: center;
+ }
+ 
+ 
+ .container2 a:hover{
+     color: #fff;
+ }
